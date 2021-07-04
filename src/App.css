@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
 }
+.bordered{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.473);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.busnisImg{
+  height: 500px !important;
+   width: 100%;
+}
+.container2, .container3{
+  width: 1000px;
+  margin: 0 auto;
+}
+ .footerLinks{
+   margin-top: 50px;
+ }
+.aLink{
+   text-decoration: none;
+   color: rgb(119, 118, 118);
+   max-height: 73px !important;
+   min-height: 73px !important;
+}
+.py-2{
+  min-height: 220px !important;
+  max-height: 220px !important;
+}
+.aboutImg{
+   width: 239px !important;
+   height: 149px !important;
+}
+.container3 h1{
+  padding: 35px 0;
+}
+input{
+  width: 100%;
+  border: 0;
+  overflow: hidden;
+}
+footer{
+  background-color: rgb(98, 98, 98);
+  height: 200px;
+  display: flex;
+  justify-content:  flex-end ;
+   width: 100%;
+}
+footer h1 a{
+  text-decoration: none;
+  padding: 20px 9px !important;
+  color: #fff;
+  margin-top: 15px;
+}
+.abaut{
+  padding-top:15px ;
+}
+.checkbox{
+  width: 10px !important;
+   }
+   textarea{
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+    height: 100px !important;
+    resize: none;
+    }
+p{
+  margin-bottom: 5px !important;
+}
+.container ul {
+  display: flex;
+  margin: 0;
+}
+.inputsRegister{
+  background-color: #DEDEDE;
+  padding: 15px;
+}
+ .calculatImg{
+   width: 100%;
+ }
+.feature ul li{
+  display: flex;
+  padding: 40px 0;
+ }
+ .feature ul li img{
+padding-right: 10px; }
+.container ul li {
+  margin: 0 30px !important; 
+}
+.container ul li a {
+  text-decoration: none;
+  color: rgb(136, 135, 135);
+  font-size: bold;
+}
+.container img {
+  width: 50px;
+  height: 50px;
+}
+.bisnes .container img{
+  height: 50%;
+  width: 100%;
 }
